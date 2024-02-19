@@ -318,7 +318,8 @@ div.fourth-container .card {
     background: #201a1a;
     padding: 0px 20px;
     margin: 0px 10px;
-    width: calc(33% - 20px);
+    width: 100%;
+    max-width: 300px;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -585,7 +586,6 @@ div.fourth-container .card:hover p {
 
     div.fourth-container .contact-info .card {
         width: 100%;
-        max-width: 300px;
         margin: 10px 0px;
     }
     
