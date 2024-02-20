@@ -1,6 +1,6 @@
 hamburguer = document.getElementById("hamburguer")
 
-hamburguer.onclick = function menu() {
+hamburguer.onclick = function () {
     nav = document.getElementById("nav-bar")
     nav.classList.toggle('active')
     /*if(nav.style.display == 'block') {
