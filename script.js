@@ -3,12 +3,7 @@ hamburguer = document.getElementById("hamburguer")
 hamburguer.onclick = function () {
     nav = document.getElementById("nav-bar")
     nav.classList.toggle('active')
-    /*if(nav.style.display == 'block') {
-        nav.style.display = 'none'
-    }else {
-        nav.style.display = 'block'
-    }*/
-};
+}
 
 window.sr = ScrollReveal({reset:true})
 
