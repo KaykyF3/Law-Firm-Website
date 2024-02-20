@@ -453,10 +453,12 @@ div.fourth-container .card:hover p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .footer .third-box-footer ul{
     display: flex;
+    justify-content: center;
 }
 
 .footer .third-box-footer ul li{
