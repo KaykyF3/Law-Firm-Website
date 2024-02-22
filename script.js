@@ -1,13 +1,13 @@
-hamburguer = document.getElementById("hamburguer")
-
-hamburguer.onclick = function () {
-    nav = document.getElementById("nav-bar")
-    nav.classList.toggle('active')
+hamburguer = document.querySelector(".hamburguer");
+hamburguer.onclick = function() {
+    navBar = document.querySelector(".nav-bar");
+    navBar.classList.toggle("active");
 }
 
 window.sr = ScrollReveal({reset:true})
+window.sr = ScrollReveal({mobile:false})
 
-/*First Container*/
+//First Container
 
 sr.reveal(".sub-containers",{
     duration: 1000,
@@ -102,9 +102,3 @@ sr.reveal(".third-card",{
     distance: '35px',
     delay: 1500
 })
-
-
-
-
-
-

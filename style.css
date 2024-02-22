@@ -394,9 +394,6 @@ div.fourth-container .card:hover p {
 
 /*Configurações Para Javascript*/
 
-.first-sub-container-img, .second-sub-container-text,.first-text-box,.first-card,.second-card,.third-card{
-    visibility: hidden;
-}
 
 
 .footer {
