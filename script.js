@@ -4,6 +4,7 @@ hamburguer.onclick = function() {
     navBar.classList.toggle("active");
 }
 
+
 window.sr = ScrollReveal({reset:true})
 window.sr = ScrollReveal({mobile:false})
 
