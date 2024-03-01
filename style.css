@@ -68,7 +68,7 @@ div.first-container {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background: url(background-image.jpg);
+    background: url(img/background-image.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -209,7 +209,7 @@ div.third-container section {
 }
 
 div.third-container section:nth-child(1) {
-    background: url(trial-background.jpg);
+    background: url(img/trial-background.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -220,7 +220,7 @@ div.third-container section:nth-child(2) {
 }
 
 div.third-container section:nth-child(3) {
-    background: url(building-wallpaper.jpg);
+    background: url(img/building-wallpaper.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -297,7 +297,7 @@ div.third-container section div.text-box button {
 
 div.fourth-container {
     width: 100%;
-    background: url(bookshelf-image.jpg);
+    background: url(img/bookshelf-image.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
